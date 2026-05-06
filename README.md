@@ -1,1 +1,1 @@
-[фото](ю.assets/app.png)
+[фото](./assets/app.png)
