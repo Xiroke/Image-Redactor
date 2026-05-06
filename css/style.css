@@ -1,0 +1,53 @@
+.page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.tools {
+    position: fixed;
+    bottom: 32px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+#image-fields {
+    display: none;
+    align-items: end;
+    gap: 8px;
+}
+
+.load_images {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+#canvas {
+    border: 2px solid #ccc;
+    filter: ;
+}
+
+#layers {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.itemWrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.itemWrapper button {
+    white-space: nowrap;
+}
